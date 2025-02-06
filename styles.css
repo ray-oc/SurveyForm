@@ -158,6 +158,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  #very-satisfied {
+    margin-bottom: 0.5rem;
+  }
+  #satisfied {
+    margin: 0.5rem 0;
   }
   #survey-form {
     display: flex;
