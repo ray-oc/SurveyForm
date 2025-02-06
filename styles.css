@@ -48,6 +48,13 @@ body {
   gap: 1rem;
 }
 
+#survey-form label {
+  font-weight: 600;
+}
+#survey-form .label {
+  font-weight: 400;
+}
+
 #survey-form input {
   padding: 0.2rem;
   border: 2px solid #6b705caf;
@@ -84,6 +91,16 @@ body {
 .radio-group label {
   margin-right: 1.5rem;
 }
+
+/* Radios styled */
+#very-satisfied {
+  scale: 1.2;
+  cursor: pointer;
+}
+#satisfied {
+  scale: 1.2;
+  cursor: pointer;
+}
 #survey-form select {
   padding: 0.3rem;
   font-family: "Montserrat", serif;
@@ -105,6 +122,15 @@ body {
 #survey-form #dropdown option {
   font-family: "Montserrat", serif;
   text-align: center;
+  cursor: pointer;
+}
+/* Checkboxes styles */
+#coding {
+  scale: 1.2;
+  cursor: pointer;
+}
+#design {
+  scale: 1.2;
   cursor: pointer;
 }
 
